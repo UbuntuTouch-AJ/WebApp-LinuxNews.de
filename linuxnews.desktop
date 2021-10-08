@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=LinuxNews
+Comment=Morph based linuxnews.de Webapp
+Exec=qmlscene %u app/Main.qml --scaling --software
+Terminal=false
+Type=Application
+Icon=icon.png
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Splash-Color=#303030
+X-Ubuntu-Splash-Image=icon-splash.png
+
+Name[de_DE]=LinuxNews

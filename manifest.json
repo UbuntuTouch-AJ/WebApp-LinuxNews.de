@@ -1,0 +1,17 @@
+{
+    "name": "linuxnews",
+    "description": "linuxnews",
+
+    "title": "linuxnews",
+    "architecture": "@CLICK_ARCH@",
+    "hooks": {
+        "linuxnews": {
+            "apparmor": "linuxnews.apparmor",
+            "desktop":  "linuxnews.desktop",
+            "urls": "linuxnews.url-dispatcher"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Andreas Johannsen <aj-ubuntutouch@posteo.de>",
+    "framework" : "ubuntu-sdk-16.04.4"
+}
